@@ -1,0 +1,79 @@
+.contact {
+    background-color: black;
+    color: white;
+    height: 700px;
+}
+
+form {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-field {
+    display: flex;
+    width: 600px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.contact h1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.message-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 150px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
+.button {
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.button:hover {
+    color: white;
+    background-color: grey;
+}
+
+.socials svg {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.socials h3 {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+@media all and (max-width: 622px) {
+    .input-field {
+        width: 300px;
+    }
+    .message-field {
+        width: 300px;
+    }
+}

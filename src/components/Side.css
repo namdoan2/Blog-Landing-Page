@@ -1,0 +1,29 @@
+article img {
+    width: 100%;
+    height: 200px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.author {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
