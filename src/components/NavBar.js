@@ -1,7 +1,7 @@
 import {Close, MenuOutlined} from '@material-ui/icons';
 import './NavBar.css';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 const NavBar = () => {
 

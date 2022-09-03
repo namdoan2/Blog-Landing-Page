@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar.js';
 import MainContent from './components/MainContent.js';
